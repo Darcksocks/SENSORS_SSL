@@ -1,0 +1,38 @@
+/*
+ * PID.c
+ *
+ *  Created on: 9 janv. 2019
+ */
+
+#include "stm32f4xx.h"
+#include "stm32f4_discovery.h"
+#include "PID.h"
+
+#define Kp 1
+#define Ki 1
+#define Kd 1
+
+int somme_erreur = 0;
+int diff_erreur = 0;
+int erreur = 0;
+int erreur_precedente = 5;
+
+int PID(int commande_PID, int mesure_PID)
+{
+	erreur = commande_PID - mesure_PID;
+	/* fait la difference entre la commande et la valeur mesure*/
+
+	somme_erreur = somme_erreur + erreur;
+	/*fait la somme de toutes les erreurs*/
+
+	diff_erreur = erreur - erreur_precedente;
+	/*fait la difference entre erreur actuelle et erreur precedente*/
+
+	commande_PID = Kp*erreur + Ki*somme_erreur + Kd*diff_erreur;
+	/* fait la somme de toutes les operations*/
+
+	erreur_precedente = erreur;
+	/* met l'erreur dans l'erreur precedente*/
+
+	return commande_PID;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;test_sensors_spi/StdPeriph_Driver/STM32F4-Discovery&apos;" deleteContents="false" description="Delete resource &apos;test_sensors_spi/StdPeriph_Driver/STM32F4-Discovery&apos;" element1="/test_sensors_spi/StdPeriph_Driver/STM32F4-Discovery" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1547820213662"/>
+</session>

@@ -1,0 +1,40 @@
+/*
+ * Optical_flow.h
+ *
+ *  Created on: 11 janv. 2019
+ *      Author: pascal
+ */
+
+#ifndef OPTICAL_FLOW_H_
+#define OPTICAL_FLOW_H_
+
+/*fonction definition clock*/
+void init_clock_spi(void);
+
+/*fonction initialisant la spi du capteur optique*/
+void init_spi_Optical(void);
+
+/*fonction configuration du module optique*/
+void Config_Optical(void);
+
+/*fonction configuration port b pin 1*/
+void config_port(void);
+
+/*fonction activant le port spi2*/
+void SPI_ENABLE_Optical(void);
+
+/*fonction gerant la reception des données*/
+uint16_t SPI_RECEIVEDATA_Optical(volatile uint16_t data_optical);
+
+uint16_t SPI_SENDDATA_Optical(volatile uint16_t data_optical);
+
+/*fonction signalant si la spi est libre*/
+uint8_t SPI_BUSY_Optical(volatile uint8_t SPI_BUSY);
+
+/*fonction signalant si la recpetion de la spi est libre*/
+uint8_t SPI_RX_BUSY_Optical(volatile uint8_t SPI_RX_BUSY);
+
+/*fonction raz flag spi2*/
+void SPI_CLEAR_BUSY(void);
+
+#endif /* OPTICAL_FLOW_H_ */
