@@ -1,0 +1,9 @@
+quelles sont les capteurs nécéssaire :
+
+- encodeurs > calculer la vitesse de chaque moteur (PID)
+
+- centrale inertielle > 
+
+- capteur optique (laser) > calculer le deplacement du robot
+
+- capteur infrarouge > determiner si la balle est dans le dribbler.
