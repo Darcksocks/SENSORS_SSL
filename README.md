@@ -5,7 +5,6 @@ This project is about the SSL robocup from the ROBOCUP.
 This project is made by YNOV's students :
 
 - BAUDET Valentin
-- CHAUVET David
 - HALLO Matthieu
 - SARRAUD David
 
