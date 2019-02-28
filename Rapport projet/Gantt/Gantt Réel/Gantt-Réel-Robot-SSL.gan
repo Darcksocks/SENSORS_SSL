@@ -42,9 +42,9 @@
             <task id="13" name="Schéma structurel" color="#8cb6ce" meeting="false" start="2018-12-14" duration="15" complete="0" expand="true"/>
             <task id="24" name="Création des bibliothèques composants" meeting="false" start="2018-12-13" duration="8" complete="0" expand="true"/>
         </task>
-        <task id="30" name="Programmation" color="#00e9e9" meeting="false" start="2018-12-28" duration="78" complete="0" expand="true">
-            <task id="31" name="Etude des registres" meeting="false" start="2018-12-28" duration="29" complete="0" expand="true"/>
-            <task id="32" name="Algorithmique et Programmation" color="#8cb6ce" meeting="false" start="2018-12-28" duration="78" complete="0" expand="true"/>
+        <task id="30" name="Programmation" color="#00e9e9" meeting="false" start="2018-12-28" duration="106" complete="0" expand="true">
+            <task id="31" name="Etude des registres" meeting="false" start="2018-12-28" duration="22" complete="0" expand="true"/>
+            <task id="32" name="Algorithmique et Programmation" color="#8cb6ce" meeting="false" start="2018-12-28" duration="106" complete="0" expand="true"/>
         </task>
         <task id="35" name="1er revue" color="#ff0000" meeting="false" start="2018-12-13" duration="1" complete="0" expand="true"/>
         <task id="36" name="2eme revue" color="#ff0000" meeting="false" start="2019-01-09" duration="1" complete="0" expand="true"/>
